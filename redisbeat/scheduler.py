@@ -11,18 +11,19 @@
 # use this file except in compliance with the License. You may obtain a copy
 # of the License at http://www.apache.org/licenses/LICENSE-2.0
 
-from functools import partial
-import jsonpickle
 import sys
-from time import mktime
 import traceback
+from functools import partial
+from time import mktime
 
-from celery.beat import Scheduler
+import jsonpickle
 from celery import current_app
+from celery.beat import Scheduler
 from celery.utils.log import get_logger
 from redis import StrictRedis
-from redis.sentinel import Sentinel
 from redis.exceptions import LockError
+from redis.sentinel import Sentinel
+
 try:
     import urllib.parse as urlparse
 except ImportError:

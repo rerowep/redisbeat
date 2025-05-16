@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # Copyright 2017-2020 Liqiang Lau
 """
- @desc: `
- @author: liqiang liu
- @contact: liqiangliu443@gmail.com
- @site: https://liqiang.io
- @created at: 2020/3/7
+@desc: `
+@author: liqiang liu
+@contact: liqiangliu443@gmail.com
+@site: https://liqiang.io
+@created at: 2020/3/7
 """
 
 INIT_POLICY_RESET = "RESET"
